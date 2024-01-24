@@ -398,23 +398,77 @@
       <!-- Get in Touch sections Ends Here -->
       
       <!-- Form and Contact sections Starts Here -->
-      <section>
-        <div>
-          <div>
-            <div class="card card-side bg-base-100 shadow-xl">
-              <div>
-                <div class="grid w-32 h-20 rounded bg-primary text-primary-content place-content-center">1</div> 
-                <div class="grid w-32 h-20 rounded bg-accent text-accent-content place-content-center">2</div> 
-                <div class="grid w-32 h-20 rounded bg-secondary text-secondary-content place-content-center">3</div>
-              </div>
-              <div class="card-body">
-                <h2 class="card-title">New movie is released!</h2>
-                <p>Click the button to watch on Jetflix app.</p>
-                <div class="card-actions justify-end">
-                  <button class="btn btn-primary">Watch</button>
+      <section class="left-box flex flex-nowrap"> 
+        <div class="flex-1 md:container md:mx-auto">
+          <div class="grid grid-cols md:grid-rows-1 lg:grid-rows-1">
+            <div class="card card-side bg-base-100 shadow-xl ">
+              <div class="px-10 py-10">
+                <div class="grid py-10 w-80 h-60 rounded bg-[#f8fdf0] text-black place-content-center">
+                  <img src="./images/email.png" alt="">
+                  <br>
+                  <h3 class="phone-font">Phone Number</h3><br>
+                  <h2>(+62) 123-321-543</h2>
                 </div>
+                <br>
+                <br>                
+                <div class="grid py-10 w-80 h-60 rounded bg-[#f8fdf0] text-black place-content-center">
+                  <img src="./images/phone.png" alt="">
+                  <br>
+                  <h3 class="phone-font">Email : </h3><br>
+                  <h2>hockeys@support.com</h2>
+                </div>
+                <br>
+                <br>
+                <div class="grid py-10 w-80 h-60 rounded bg-[#eff5fe] text-black place-content-center">
+                  <img src="./images/location.png" alt="">
+                  <br>
+                  <h3 class="phone-font">Phone Number</h3><br>
+                  <h2>(+62) 123-321-543</h2>
+                </div>             
               </div>
-            </div>
+              <div class="right-box flex-1 flex-col-hide lg:gap-16 md:flex-col-1 lg:flex-row mini-h-screen">
+                <div class="card px-20 shadow-2xl bg-base-100">
+                  <form class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Your Name</span>
+                      </label>
+                      <input type="your name" placeholder="your name" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Email</span>
+                      </label>
+                      <input type="email" placeholder="email" class="input input-bordered" required />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Subject</span>
+                      </label>
+                      <input type="subject" placeholder="subject" class="input input-bordered" required />                   
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text">Phone Number</span>
+                      </label>
+                      <input type="Your phone number" placeholder="Your phone number" class="input input-bordered" required />                   
+                    </div>                  
+                    <label class="form-control">
+                      <div class="label">
+                        <span class="label-text">Message</span>                      
+                      </div>
+                      <textarea class="textarea textarea-bordered h-80" placeholder="Message"></textarea>
+                      <div class="label">      
+                      </div>
+                    </label>
+                    <div class="form-control mt-6">
+                      <button class="btn bg-btn-primary text-white">Send Message</button>                    
+                    </div>
+                  </form>
+              </div>
+              </div>
+
+
           </div>
         </div>
       </section>
@@ -442,45 +496,64 @@
     
    <footer>
     <section>
-      <div class="end-part">
+      <div>
         <footer class="footer p-10 bg-[#131318] text-[#fff]">
-          <nav>
-            <!-- <header class="footer-title">Services</header>  -->
-            <a class="touch link link-hover">Get In Touch</a>
-            <br>                        
-            <p>Questions or concerns? <br>Reach out – <br>we're here to assist you!</p>
-            <h6><i class="fa-regular fa-envelope"><gap-4></gap-4></i> hockeys@support.com </h6>
-            <h6><i class="fa-solid fa-phone"><gap-4></gap-4></i>(+62) 123-321-543</h6>            
-          </nav> 
-          <nav>
-            <!-- <header class="footer-title">Company</header>  -->
-            <a class="link link-hover text-xl">Company</a>            
+          <nav>            
+            <a class="touch link link-hover">Get In Touch</a>            
             <br> 
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Leadership</a>
-            <a class="link link-hover">Careers</a>
-            <a class="link link-hover">News & Article</a>
-            <a class="link link-hover">Legal Notice</a>
+            <div class="sub-head">
+              <p>Questions or concerns? <br>Reach out – <br>we're here to assist you!</p>
+            <h6><i class="fa-regular fa-envelope"><gap-4></gap-4></i> hockeys@support.com </h6>
+            <h6><i class="fa-solid fa-phone"><gap-4></gap-4></i>(+62) 123-321-543</h6>
+            </div>             
+          </nav> 
+          <nav>            
+            <a class="link link-hover text-xl">Company</a>            
+            <br>
+            <div class="sub-head">
+              <h6>
+              <a class="link link-hover">About us</a>
+              <br>
+              <a class="link link-hover">Leadership</a>
+              <br>
+              <a class="link link-hover">Careers</a>
+              <br>
+              <a class="link link-hover">News & Article</a>
+              <br>
+              <a class="link link-hover">Legal Notice</a> 
+              </h6>                           
+            </div> 
+            
           </nav> 
           <nav>
             <a class="link link-hover text-xl">Support</a>            
-            <br> 
+            <br>
+            <div class="sub-head">
+            <h6>              
             <a class="link link-hover">Help Center</a>
+            <br>
             <a class="link link-hover">FAQ</a>
+            <br>
             <a class="link link-hover">Ticket Support</a>
-            <a class="link link-hover">Contact Us</a>            
+            <br>
+            <a class="link link-hover">Contact Us</a>
+            </h6>             
+            </div>                       
           </nav>
           <nav>
             <a class="link link-hover text-xl">Services</a>            
-            <br> 
+            <br>
+            <div class="sub-head">
+            <h6>
             <a class="link link-hover">Academy</a>
+            <br>
             <a class="link link-hover">Group Lesson</a>
+            <br>
             <a class="link link-hover">Private Lesson</a>
+            <br>
             <a class="link link-hover">Hockeys for kids</a>
-            <a class="link link-hover">Hockeys for Adult</a>
-          </nav>
-        </footer>
-      </div>
+            </h6>
+          </div>
     </section>
    </footer>
 </body>
