@@ -13,8 +13,7 @@ line-height: 26px;
     border-radius: 12px;
 background: rgba(19, 19, 24, 0.03);
 }
-.link{
-    color: #131318;
+.linger{
 text-align: center;
 font-family: Manrope;
 font-size: 24px;
@@ -25,4 +24,20 @@ line-height: normal;
 .social-part{
     border-radius: 12px;
 background: rgba(19, 19, 24, 0.03);
+}
+.end-part{
+   
+}
+.footer-title{
+    color: #FFF;
+}
+.fa-regular{
+    color: #FF4240
+}
+.fa-phone{
+    color: #FF4240;
+}
+.touch{
+    font-size: 28px;
+    
 }
