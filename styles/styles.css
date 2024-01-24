@@ -1,0 +1,28 @@
+.price{
+    color: #FF4240;
+    font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 26px;
+}
+.faq{
+    width: 100%;
+}
+.social{
+    border-radius: 12px;
+background: rgba(19, 19, 24, 0.03);
+}
+.link{
+    color: #131318;
+text-align: center;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.social-part{
+    border-radius: 12px;
+background: rgba(19, 19, 24, 0.03);
+}
